@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yadira Romancelly | AI Data Specialist & Computer Vision Engineer</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --primary: #2563eb;
+            --primary-light: #eff6ff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .summary {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--text-main);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 0.25rem;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .job-company {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .job-meta {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--primary);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.2rem;
+        }
+
+        .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .project-title {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-category h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: var(--primary-light);
+            color: var(--primary);
+            padding: 0.25rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .edu-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .edu-title {
+            font-weight: 700;
+        }
+
+        .edu-meta {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 1rem 0.5rem; }
+            header, section { padding: 1.5rem; }
+            .job-header { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Yadira Romancelly</h1>
+            <div class="subtitle">AI Data Specialist & Computer Vision Engineer</div>
+            <p class="summary">
+                AI Data Specialist and Computer Vision Engineer with a strong background in dataset curation, model evaluation, and high-accuracy data operations. Specializes in annotating, validating, and optimizing large-scale image and video datasets to enhance machine learning model performance. Expertise spans structured labeling schemas, Quality Assurance (QA) audits, and building data preprocessing pipelines.
+            </p>
+        </header>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">AI Data Specialist / Computer Vision Engineer</span>
+                    <span class="job-company">Peloton</span>
+                </div>
+                <div class="job-meta">July 2021 – Present | Remote, USA</div>
+                <ul>
+                    <li><strong>Annotation & Schema Application:</strong> Annotating and validating large-scale image and video datasets using structured labeling schemas for keypoint detection, object classification, and spatial tracking.</li>
+                    <li><strong>Quality Assurance & Auditing:</strong> Performing QA audits on annotated datasets to identify inconsistencies, correcting mislabels, and improving overall labeling accuracy.</li>
+                    <li><strong>Data Preprocessing Pipelines:</strong> Building pipelines for dataset cleaning, normalization, and augmentation to optimize model training quality.</li>
+                    <li><strong>Model Evaluation:</strong> Evaluating model outputs, flagging misclassifications, and analyzing failure patterns to improve model precision, recall, and mean Average Precision (mAP).</li>
+                    <li><strong>Workflow Optimization:</strong> Identifying edge cases to refine annotation guidelines, implementing automated validation checks, and automating portions of the labeling workflow to scale throughput and efficiency.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Notable Projects</h2>
+            <div class="project">
+                <div class="project-title">Computer Vision Dataset Annotation & Evaluation Project</div>
+                <ul>
+                    <li>Annotated thousands of images and video frames using bounding boxes and keypoint labeling following the COCO format.</li>
+                    <li>Conducted QA reviews to improve dataset reliability and evaluated model predictions to identify failure patterns for subsequent retraining.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Core Skills & Technical Proficiencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Data Operations</h3>
+                    <div class="tags">
+                        <span class="tag">Image/Video Annotation</span>
+                        <span class="tag">Dataset Curation</span>
+                        <span class="tag">Cleaning & Normalization</span>
+                        <span class="tag">Augmentation</span>
+                        <span class="tag">Edge Case Identification</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>QA & Standards</h3>
+                    <div class="tags">
+                        <span class="tag">Taxonomy Implementation</span>
+                        <span class="tag">Data Auditing</span>
+                        <span class="tag">COCO Format</span>
+                        <span class="tag">Pascal VOC</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Evaluation Metrics</h3>
+                    <div class="tags">
+                        <span class="tag">mAP</span>
+                        <span class="tag">IoU</span>
+                        <span class="tag">Precision / Recall</span>
+                        <span class="tag">Confusion Matrices</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Tech</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Labelbox</span>
+                        <span class="tag">CVAT</span>
+                        <span class="tag">SuperAnnotate</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education & Certifications</h2>
+            <div class="edu-item">
+                <div class="edu-title">Master's Level Work in Computer Science</div>
+                <div class="edu-meta">University of Kansas (Lawrence, Kansas)</div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-title">Certifications</div>
+                <div class="tags">
+                    <span class="tag">Deep Learning Specialization</span>
+                    <span class="tag">Computer Vision with PyTorch</span>
+                    <span class="tag">GIS & Remote Sensing Certification</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
