@@ -3,7 +3,7 @@
 Welcome to my portfolio repository! This repository hosts the source code for my professional portfolio website deployed on Netlify.
 ## 📬 Contact Information
 
-- **Email:** yadira.roman@email.com
+- **Email:** traineryadi@gmail.com
 - **LinkedIn:** linkedin.com/in/yadira-romancelly
 - **Location:** Remote, USA
   ---
