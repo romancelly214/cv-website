@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Examples | Yadira Romancelly</title>
+    <style>
+        :root {
+            --bg-main: #f8f9fa;
+            --bg-card: #ffffff;
+            --text-main: #212529;
+            --text-muted: #6c757d;
+            --primary: #0056b3;
+            --border: #dee2e6;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        .portfolio-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        .portfolio-img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            display: block;
+            margin: 0 auto;
+        }
+        .disclaimer-box {
+            background-color: #fff9db;
+            border-left: 4px solid #fab005;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-radius: 0 4px 4px 0;
+        }
+        .disclaimer-title {
+            font-weight: bold;
+            color: #868e96;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+        }
+        .disclaimer-text {
+            font-size: 0.9rem;
+            color: #495057;
+            margin: 0;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to CV / Resume</a>
+        
+        <h1>Portfolio Examples</h1>
+        <p class="subtitle">Technical Visualizations & Feature Applications</p>
+
+        <!-- PORTFOLIO ITEM 1 -->
+        <div class="portfolio-card">
+            <h3 style="margin-top: 0; margin-bottom: 1rem;">Computer Vision Architecture: Real-Time Form Feedback</h3>
+            
+            <img src="Strength_Form_Feedback_-_lbs__1_.png" alt="Human Pose Estimation Interface Breakdown" class="portfolio-img">
+            
+            <div class="disclaimer-box">
+                <div class="disclaimer-title">NDA & Compliance Safeguard Notice</div>
+                <p class="disclaimer-text">
+                    This image is utilized strictly as a public-facing product marketing asset to conceptually illustrate the consumer-facing feature supported by my underlying data operations. In strict compliance with confidentiality agreements, no proprietary training datasets, raw annotation frames, codebases, or internal machine learning metrics are disclosed. Public documentation verifying this feature framework can be reviewed via the <a href="https://www.onepeloton.com/blog/what-is-peloton-iq" target="_blank" style="color: var(--primary);">Official Peloton IQ Release</a>.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
