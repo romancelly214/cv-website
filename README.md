@@ -6,7 +6,7 @@ Welcome to my portfolio repository! This repository hosts the source code for my
 
 If you would like to connect, discuss a project, or inquire about open opportunities, please feel free to reach out:
 
-- **Email:** yadira.roman@email.com
+- **Email:** traineryadi@email.com
 - **LinkedIn:** linkedin.com/in/yadira-romancelly
 - **Location:** Remote, USA
 ---
