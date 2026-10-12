@@ -1,4 +1,4 @@
-# Yadira Romancelly | AI Data Specialist & Computer Vision QA Engineer
+# Yadira Romancelly | AI Data Specialist- QA Analyst
 
 Welcome to my portfolio repository! This repository hosts the source code for my professional portfolio website deployed on Netlify. 
 
